@@ -17,7 +17,7 @@
 
             <span v-else-if="$store.state.page.viewName === 'notfound'"> 존재하지 않는 문서입니다. 직접 자유롭게 기여해보세요! </span>
 
-            <span v-else> Powered by the seed engine </span>
+            <span v-else> Powered by the tree engine </span>
         </template>
     </bHeroBody>
 </template>
