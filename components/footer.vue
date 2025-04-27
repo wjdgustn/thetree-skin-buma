@@ -3,7 +3,7 @@
         <div :class="bulma('container')">
             <div :class="bulma('content has-text-centered')">
                 <p>
-                    <span v-html="$store.state.config['wiki.copyright_text']" />
+                    <span v-html="$store.state.page.data.copyright_text" />
                     <span v-html="$store.state.config['wiki.footer_text']" />
 
                     theseed-skin-buma by LiteHell, the tree engine by hyonsu <br />
